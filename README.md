@@ -11,7 +11,7 @@ There are 3 test files to present the issue:
 - test/repro-legit-fail.test-d.ts
     - this is a legitimate type issue, Vite type testing should report this
 - test/repro-typo-fail.test-d.ts
-    - this is a typo issue, according to the tip, Vite should report this as producing a `ReferenceError`
+    - this is the mentioned "typo" issue, according to the tip Vite should report this as producing a `ReferenceError`
 
 There are 2 npm scripts
 - `npm run test`
